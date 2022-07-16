@@ -78,7 +78,7 @@ submit.addEventListener("click", function (e) {
   e.preventDefault();
 
   checkRequired([username, email, password, password2]);
-  checkLength(username, 3, 15);
+  checkLength(username, 3, 20);
   checkLength(password, 6, 25);
   checkEmail(email);
   checkPassword(password2);
